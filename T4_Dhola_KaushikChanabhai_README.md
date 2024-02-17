@@ -2,7 +2,7 @@
 
 - **Date Created:** February 17, 2024
 - **Last Modification Date:** February 17, 2024
-- **Deployed URL:** [Tutorial 4 Deployment](https://main--lucent-tanuki-4bf5d1.netlify.app/)
+- **Deployed URL:** [Tutorial 4 Deployment](https://main--clever-gnome-95b201.netlify.app/)
 - **Git URL:** [Git Repository](https://git.cs.dal.ca/kdhola/csci-5709-tutorials/-/tree/main/Tutorial3)
 
 ## Author
