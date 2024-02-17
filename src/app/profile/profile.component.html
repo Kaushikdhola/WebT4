@@ -1,0 +1,21 @@
+<h2>User Profiles</h2>
+
+<form [formGroup]="searchForm" class="mb-3">
+    <div class="searchBarGroup">
+      <input type="text" formControlName="searchQuery" class="searchBar" placeholder="Search by First Name or Last Name">
+    </div>
+  </form>
+
+<div class="grid-container">
+  <div class="grid-item" *ngFor="let user of filteredUsers">
+    <a [routerLink]="['/profile', user._id]">
+      <div class="user">
+        <img [src]="user.picture" alt="User Image" *ngIf="user.picture">
+        <div class="details">
+          <div class="name">{{ user.name }}</div>
+          <div class="email">{{ user.email }}</div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

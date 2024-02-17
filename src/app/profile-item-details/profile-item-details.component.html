@@ -1,0 +1,14 @@
+<div *ngIf="userData">
+    <h2>{{ userData.name }}</h2>
+    <p><b>Email: </b> {{ userData.email }}</p>
+    <p><b>Phone: </b>{{userData.phone}}</p>
+    <p><b>Gender: </b>{{userData.gender}}</p>
+    <p><b>Age: </b>{{userData.age}}</p>
+    <p><b>Address: </b>{{userData.address}}</p>
+    <p><b>Friends: </b></p>
+    <div class="friends" *ngFor="let user of userData.friends">
+        <p>{{user.name}}</p>
+    </div>
+
+    <p><b>About: </b>{{userData.about}}</p>
+  </div>
