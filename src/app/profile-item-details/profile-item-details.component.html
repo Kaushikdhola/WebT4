@@ -5,10 +5,15 @@
     <p><b>Gender: </b>{{userData.gender}}</p>
     <p><b>Age: </b>{{userData.age}}</p>
     <p><b>Address: </b>{{userData.address}}</p>
+    <p><b>Company: </b>{{userData.company}}</p>
+    <p><b>Balance: </b>{{userData.balance}}</p>
+    <p><b>Eye Color: </b>{{userData.eyeColor}}</p>
     <p><b>Friends: </b></p>
     <div class="friends" *ngFor="let user of userData.friends">
-        <p>{{user.name}}</p>
+        <p><b>ID:</b> {{user.id}} <b>Name: </b>>{{user.name}}</p>
     </div>
-
     <p><b>About: </b>{{userData.about}}</p>
+    <p><b>Favorite Fruit: </b>{{userData.favoriteFruit}}</p>
+    <p><b>Greeting: </b>{{userData.greeting}}</p>
+    <p><b>Registered: </b>{{userData.registered}}</p>
   </div>
